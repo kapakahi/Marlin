@@ -13,7 +13,6 @@
 </p>
 
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
-Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 
 ## Marlin 2.1 Bugfix Branch
 
@@ -22,59 +21,6 @@ __Not for production use. Use with caution!__
 Marlin 2.1 takes this popular RepRap firmware to the next level by adding support for much faster 32-bit and ARM-based boards while improving support for 8-bit AVR boards. Read about Marlin's decision to use a "Hardware Abstraction Layer" below.
 
 This branch is for patches to the latest 2.1.x release version. Periodically this branch will form the basis for the next minor 2.1.x release.
-
-Download earlier versions of Marlin on the [Releases page](https://github.com/MarlinFirmware/Marlin/releases).
-
-## Contributors
-
-Marlin is constantly improving thanks to a huge number of contributors from all over the world bringing their specialties and talents. Huge thanks are due to [all the contributors](https://github.com/MarlinFirmware/Marlin/graphs/contributors) who regularly patch up bugs, help direct traffic, and basically keep Marlin from falling apart. Marlin's continued existence would not be possible without them.
-
-## Administration
-
-Regular users can open and close their own issues, but only the administrators can do project-related things like add labels, merge changes, set milestones, and kick trolls. The current Marlin admin team consists of:
-
-<table align="center">
-<tr><td>Project Maintainer</td></tr>
-<tr><td>
-
- 🇺🇸  **Scott Lahteine**
-       [@thinkyhead](https://github.com/thinkyhead)
-       [<kbd>  Donate 💸  </kbd>](https://www.thinkyhead.com/donate-to-marlin)
-
-</td><td>
-
- 🇺🇸  **Roxanne Neufeld**
-       [@Roxy-3D](https://github.com/Roxy-3D)
-
- 🇺🇸  **Keith Bennett**
-       [@thisiskeithb](https://github.com/thisiskeithb)
-       [<kbd>  Donate 💸  </kbd>](https://github.com/sponsors/thisiskeithb)
-
- 🇺🇸  **Jason Smith**
-       [@sjasonsmith](https://github.com/sjasonsmith)
-
-</td><td>
-
- 🇧🇷  **Victor Oliveira**
-       [@rhapsodyv](https://github.com/rhapsodyv)
-
- 🇬🇧  **Chris Pepper**
-       [@p3p](https://github.com/p3p)
-
-🇳🇿  **Peter Ellens**
-       [@ellensp](https://github.com/ellensp)
-       [<kbd>  Donate 💸  </kbd>](https://ko-fi.com/ellensp)
-
-</td><td>
-
- 🇺🇸  **Bob Kuhn**
-       [@Bob-the-Kuhn](https://github.com/Bob-the-Kuhn)
-
- 🇳🇱  **Erik van der Zalm**
-       [@ErikZalm](https://github.com/ErikZalm)
-
-</td></tr>
-</table>
 
 ## License
 
