@@ -1236,7 +1236,7 @@
  * Override with M92 (when enabled below)
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 1600, 93 } //dfmpm //UPGRADES: GT2 Belt/Pully, TR8x2 Z Axis Lead Screw, MK8 Extruder
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 1600, 101 } //dfmpm //UPGRADES: GT2 Belt/Pully, TR8x2 Z Axis Lead Screw, MK8 Extruder
 
 /**
  * Enable support for M92. Disable to save at least ~530 bytes of flash.
@@ -1581,7 +1581,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -26, 0, -2.7 } //dfmpm //futureuse
+#define NOZZLE_TO_PROBE_OFFSET { -26, 0, -2.85 } //dfmpm //futureuse
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
@@ -1594,10 +1594,10 @@
 #define PROBING_MARGIN 10
 
 // X and Y axis travel speed (mm/min) between probes
-#define XY_PROBE_FEEDRATE (250*60) //dfmpm
+#define XY_PROBE_FEEDRATE (200*60) //dfmpm
 
 // Feedrate (mm/min) for the first approach when double-probing (MULTIPLE_PROBING == 2)
-#define Z_PROBE_FEEDRATE_FAST (4*60)
+#define Z_PROBE_FEEDRATE_FAST (10*60) //dfmpm
 
 // Feedrate (mm/min) for the "accurate" probe of each point
 #define Z_PROBE_FEEDRATE_SLOW (Z_PROBE_FEEDRATE_FAST / 2)
