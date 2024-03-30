@@ -61,7 +61,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(kapakahi 03-28-2024 DFMPM, SKR Mini 3.0)" // Who made the changes. //dfmpm
+#define STRING_CONFIG_H_AUTHOR "(kapakahi 03-30-2024 DFMPM, SKR Mini 3.0)" // Who made the changes. //dfmpm
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 // @section machine
@@ -116,7 +116,7 @@
 //#define BLUETOOTH
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "DFMPM-SKR 20240328" //dfmpm
+#define CUSTOM_MACHINE_NAME "DFMPM-SKR 20240330" //dfmpm
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
